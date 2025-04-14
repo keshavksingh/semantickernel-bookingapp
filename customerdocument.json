@@ -1,0 +1,26 @@
+[
+  {
+    "id": "939B59DC-CAC3-4BAB-8DF0-B3FE3AD62B58",
+    "customerId": "1",
+    "customerName": "John",
+    "email": "john@abc.com",
+    "address": "123456 SE US 98223",
+    "_rid": "G-txAJzT+9cBAAAAAAAAAA==",
+    "_self": "dbs/G-txAA==/colls/G-txAJzT+9c=/docs/G-txAJzT+9cBAAAAAAAAAA==/",
+    "_etag": "\"37002eb2-0000-0100-0000-67fc0e9f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1744572063
+  },
+  {
+    "id": "198C5A7D-A7FC-4249-97CD-F5E5273A23B9",
+    "customerId": "2",
+    "customerName": "Gerry",
+    "email": "gerry@pqr.com",
+    "address": "12001 TZ US 98023",
+    "_rid": "G-txAJzT+9cCAAAAAAAAAA==",
+    "_self": "dbs/G-txAA==/colls/G-txAJzT+9c=/docs/G-txAJzT+9cCAAAAAAAAAA==/",
+    "_etag": "\"3700c0b3-0000-0100-0000-67fc0eea0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1744572138
+  }
+]

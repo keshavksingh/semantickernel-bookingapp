@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+semantic-kernel
+redis
+pyodbc
+azure-cosmos
+slowapi
+aiohttp
+python-dotenv

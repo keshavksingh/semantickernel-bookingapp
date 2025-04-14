@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:7.2
+    container_name: sk_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - sk-network
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sk_booking_assistant
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+    env_file:
+      - .env
+    networks:
+      - sk-network
+
+volumes:
+  redis-data:
+
+networks:
+  sk-network:
+    driver: bridge
